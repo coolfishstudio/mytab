@@ -759,25 +759,6 @@ body > div > .eleven-os-dropdown-menu-dropdownMenuPopup.eleven-os-dropdown-menu-
   overflow: auto;
   position: relative;
 }
-.popup-model-mb23Oq .dialogPanel-yPXthT .eleven-os-spin-nested-loading {
-  height: 100%;
-  width: 100%;
-}
-.popup-model-mb23Oq .dialogPanel-yPXthT .eleven-os-spin-nested-loading .eleven-os-spin {
-  max-height: initial;
-}
-.popup-model-mb23Oq .dialogPanel-yPXthT .eleven-os-spin-container {
-  height: 100%;
-  width: 100%;
-}
-.popup-model-mb23Oq .dialogPanel-yPXthT .eleven-os-spin-container #micro-app-container {
-  height: 100%;
-  width: 100%;
-}
-.popup-model-mb23Oq .dialogPanel-yPXthT .eleven-os-spin-container #micro-app-container > div {
-  height: 100%;
-  width: 100%;
-}
 .popup-model-mb23Oq .dialogTool-vbnhxm {
   position: absolute;
   top: 8px;
@@ -1009,6 +990,30 @@ body > div > .eleven-os-dropdown-menu-dropdownMenuPopup.eleven-os-dropdown-menu-
   100% {
     transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
   }
+}
+
+.microPanel-Ij1SCt {
+  width: 100%;
+  height: 100%;
+}
+.microPanel-Ij1SCt .eleven-os-spin-nested-loading {
+  height: 100%;
+  width: 100%;
+}
+.microPanel-Ij1SCt .eleven-os-spin-nested-loading .eleven-os-spin {
+  max-height: initial;
+}
+.microPanel-Ij1SCt .eleven-os-spin-container {
+  height: 100%;
+  width: 100%;
+}
+.microPanel-Ij1SCt .eleven-os-spin-container #micro-app-container {
+  height: 100%;
+  width: 100%;
+}
+.microPanel-Ij1SCt .eleven-os-spin-container #micro-app-container > div {
+  height: 100%;
+  width: 100%;
 }
 
 .warp-jOlaZ1 {
@@ -1567,7 +1572,7 @@ body > div > .eleven-os-dropdown-menu-dropdownMenuPopup.eleven-os-dropdown-menu-
   white-space: nowrap;
 }
 
-.warp-rXL3zU {
+.warp-vXhmWZ {
   padding: 0;
   height: 100%;
   width: 100%;
