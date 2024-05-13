@@ -1226,17 +1226,11 @@ body > div > .eleven-os-dropdown-menu-dropdownMenuPopup.eleven-os-dropdown-menu-
   font-size: 12px;
 }
 
-.weather-ymSGU6 .icon-bjqS6W {
-  font-size: 24px;
-  font-weight: 600;
-}
-.weather-ymSGU6 .title-vA3gZh {
-  font-weight: 600;
-  font-size: 16px;
-  margin-bottom: 4px;
-}
-.weather-ymSGU6 .info-DT6ad4 {
-  font-size: 12px;
+.warp-KqTKed {
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
 
 .music-KStRuo .icon-lD_SP_ {
