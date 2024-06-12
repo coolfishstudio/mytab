@@ -1233,16 +1233,14 @@ body > div > .eleven-os-dropdown-menu-dropdownMenuPopup.eleven-os-dropdown-menu-
   position: relative;
 }
 
-.music-KStRuo {
-  color: #fff;
-  background-color: #ad6800;
-}
 .music-KStRuo .icon-lD_SP_ {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: transparent;
-  color: #EBBA50;
+  color: #d48806;
+  filter: grayscale(1);
+  transition: filter 0.2s;
 }
 .music-KStRuo .title-DRxbjP {
   font-weight: 600;
@@ -1253,6 +1251,32 @@ body > div > .eleven-os-dropdown-menu-dropdownMenuPopup.eleven-os-dropdown-menu-
 .music-KStRuo .info-EtbzzD {
   font-size: 12px;
 }
+.music-KStRuo:hover .icon-lD_SP_ {
+  animation: wobble-CWCMyi 1s infinite;
+  transform-origin: bottom center;
+  filter: grayscale(0);
+}
+@keyframes wobble-CWCMyi {
+  0%,
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+  }
+  30% {
+    -webkit-transform: rotate3d(0, 0, 1, 10deg);
+  }
+  50% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+  }
+  65% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+  }
+  75% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+  }
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
 
 .warp-pbtKbG {
   padding: 0;
@@ -1261,10 +1285,6 @@ body > div > .eleven-os-dropdown-menu-dropdownMenuPopup.eleven-os-dropdown-menu-
   position: relative;
 }
 
-.aiChat-GbM79C {
-  color: #F3F5FC;
-  background-color: #060607;
-}
 .aiChat-GbM79C .icon-G6xbIL {
   display: flex;
   align-items: center;
@@ -1273,6 +1293,8 @@ body > div > .eleven-os-dropdown-menu-dropdownMenuPopup.eleven-os-dropdown-menu-
   width: 54px;
   height: 54px;
   flex-shrink: 0;
+  filter: grayscale(1);
+  transition: filter 0.2s;
 }
 .aiChat-GbM79C .icon-G6xbIL .defaultIcon-FiBen_,
 .aiChat-GbM79C .icon-G6xbIL .hoverIcon-dXrhnG {
@@ -1284,6 +1306,9 @@ body > div > .eleven-os-dropdown-menu-dropdownMenuPopup.eleven-os-dropdown-menu-
 }
 .aiChat-GbM79C .icon-G6xbIL .hoverIcon-dXrhnG {
   display: none;
+}
+.aiChat-GbM79C:hover .icon-G6xbIL {
+  filter: grayscale(0);
 }
 .aiChat-GbM79C:hover .icon-G6xbIL .defaultIcon-FiBen_ {
   display: none;
