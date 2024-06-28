@@ -1233,49 +1233,11 @@ body > div > .eleven-os-dropdown-menu-dropdownMenuPopup.eleven-os-dropdown-menu-
   position: relative;
 }
 
-.music-KStRuo .icon-lD_SP_ {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: transparent;
-  color: #d48806;
-  filter: grayscale(1);
-  transition: filter 0.2s;
-}
-.music-KStRuo .title-DRxbjP {
-  font-weight: 600;
-  font-size: 18px;
-  margin-bottom: 4px;
-  line-height: 24px;
-}
-.music-KStRuo .info-EtbzzD {
-  font-size: 12px;
-}
-.music-KStRuo:hover .icon-lD_SP_ {
-  animation: wobble-CWCMyi 1s infinite;
-  transform-origin: bottom center;
-  filter: grayscale(0);
-}
-@keyframes wobble-CWCMyi {
-  0%,
-  20% {
-    -webkit-transform: rotate3d(0, 0, 1, 0deg);
-  }
-  30% {
-    -webkit-transform: rotate3d(0, 0, 1, 10deg);
-  }
-  50% {
-    -webkit-transform: rotate3d(0, 0, 1, -10deg);
-  }
-  65% {
-    -webkit-transform: rotate3d(0, 0, 1, 5deg);
-  }
-  75% {
-    -webkit-transform: rotate3d(0, 0, 1, -5deg);
-  }
-  80% {
-    -webkit-transform: rotate3d(0, 0, 1, 0deg);
-  }
+.warp-UDzO4f {
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
 
 .warp-pbtKbG {
